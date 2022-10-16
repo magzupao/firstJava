@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh '*******************************************************'
+                echo '*******************************************************'
                 sh 'java -version'
                 sh 'javac HelloWorld.java'
             }
